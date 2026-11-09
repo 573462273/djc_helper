@@ -904,7 +904,7 @@ def get_next_expect_date_of_activity(
 
 def get_act_name_and_next_expect_time_list():
     if use_by_myself():
-        last_maintain_time = parse_time("2025-11-03 00:00:00")
+        last_maintain_time = parse_time("2026-11-03 00:00:00")
         now = get_now()
         since_last_maintain = now - last_maintain_time
         if since_last_maintain.days >= 365:
